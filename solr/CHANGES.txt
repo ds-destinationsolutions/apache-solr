@@ -273,6 +273,8 @@ Bug Fixes
 
 * SOLR-17574: Fix AllowListUrlChecker when liveNodes changes. Remove ClusterState.getHostAllowList (Bruno Roustant, David Smiley)
 
+* SOLR-17306: fix replication problem on follower restart (Martin Anzinger and Peter Kroiss via Eric Pugh)
+
 Dependency Upgrades
 ---------------------
 (No changes)
